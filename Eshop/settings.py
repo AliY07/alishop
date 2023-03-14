@@ -26,7 +26,7 @@ SECRET_KEY = '-95t%=#4o3@l-(-%ok9*h%n3!0(sdchjn%+_$5#umaj-!3bg*7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://ali07-eshop.netlify.app/']
+ALLOWED_HOSTS = ['*']
 import os
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
 
